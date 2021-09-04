@@ -7717,10 +7717,10 @@ h1, h2, h3, h4, h5,
 .ftco-intro {
   color: #fff; }
   .ftco-intro .container {
-    margin-top: -200px; }
+    margin-top: -100px; }
     @media (min-width: 768px) {
       .ftco-intro .container {
-        margin-top: -200px; } }
+        margin-top: -130px; } }
   .ftco-intro .color-1 {
     background: #2cbcbc; }
   .ftco-intro .color-2 {
