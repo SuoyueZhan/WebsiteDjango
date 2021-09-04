@@ -28,8 +28,8 @@ def contact(request):
 	else:
 		return render(request, 'contact.html',{})
 
-def about(request):
-	return render(request, 'about.html',{})
+def research(request):
+	return render(request, 'research.html',{})
 
-def blog(request):
-	return render(request, 'blog.html',{})
+def resume(request):
+	return render(request, 'resume.html',{})
