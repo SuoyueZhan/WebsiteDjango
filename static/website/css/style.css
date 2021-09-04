@@ -7329,7 +7329,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 20px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 20px; /*navbar font size*/ 
+    font-size: 23px; /*navbar font size*/ 
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: 20px;
@@ -7480,7 +7480,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 700;
   line-height: 1;
-  font-size: 40px;
+  font-size: 35px; /*Yuan.Hu logo size*/ 
   text-transform: uppercase; }
 
 .owl-carousel {
