@@ -17,8 +17,16 @@ def contact(request):
 		message_thx  = 'Thank you! ' + message_name
 
 		# send an email
-
+		# send_mail(
+		# 	message_subject + 'from' + message_name, # subject and name
+		# 	message, # message
+		# 	message_email, # from email
+		# 	['zhan114@uwindsor.ca'], # to email
+		# 	)
 
 		return render(request, 'contact.html',{'message_thx':message_thx})
 	else:
 		return render(request, 'contact.html',{})
+
+def about(request):
+	return render(request, 'about.html',{})

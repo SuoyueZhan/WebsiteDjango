@@ -42,12 +42,21 @@
             <p><span>Website:</span> <a href="#">yoursite.com</a></p>
           </div>
         </div>
-        <div class="row block-9">
+
+        <!-- ***** Google Map Area ***** -->
+        <div class="row no gutter">
+          <div class = "col-md-6">
+            <div class="google-maps mb-100">
+              <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1661.895932366315!2d-101.87746643490374!3d33.58475291364203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12b220ee2363%3A0xa6bc92affbe74dd9!2sTTU%20Math%20Building!5e0!3m2!1sen!2sca!4v1630710668277!5m2!1sen!2sca" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        
+
+        
           <div class="col-md-6 pr-md-5">
             <form action="#" method = "post">
               {% csrf_token %}            
-              <div class="form-group">
-                
+              <div class="form-group">                
                 <input type="text" name = "message_name" class="form-control" placeholder="Your Name">
               </div>
               <div class="form-group">
