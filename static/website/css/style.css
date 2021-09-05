@@ -8281,7 +8281,7 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 2em 0;
   position: relative; }
   .ftco-section.ftco-section-2 {
     position: relative;
@@ -8549,12 +8549,12 @@ textarea.form-control {
     margin-bottom: 0; }
   .ftco-section .nav-pills .nav-link {
     margin-bottom: 0;
-    color: #2f89fc;
+    color: #00144f;
     font-size: 18px;
     font-weight: 400;
     position: relative;
     display: inline-block;
-    border-bottom: 1px solid #2f89fc;
+    border-bottom: 1px solid #00144f;
     margin-left: 5px;
     margin-right: 5px;
     padding: 10px 15px;
@@ -8569,8 +8569,8 @@ textarea.form-control {
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
-      background: #2f89fc;
-      bordeR: 1px solid #2f89fc; }
+      background: #00144f;
+      bordeR: 1px solid #00144f; }
       .ftco-section .nav-pills .nav-link.active:after, .ftco-section .nav-pills .nav-link:hover:after {
         opacity: 1; }
       @media (max-width: 767.98px) {
